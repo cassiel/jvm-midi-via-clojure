@@ -5,8 +5,6 @@
   (doseq [d devs]
     (println d)))
 
-(let [d (nth (RWMidi/getInputDevices) 0)] )
-
 (def d (nth (RWMidi/getOutputDevices) 0))
 
 d
